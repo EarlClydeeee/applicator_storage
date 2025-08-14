@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# 📦 SOMS Locker Tracking System
+
+
+A full-stack storage mapping system for tracking applicators in the SOMS cabinet storage.  
+Built with **Next.js** for the frontend/backend API and **MySQL** (via phpMyAdmin) for persistent data storage.
+
+---
+
+## 🚀 Features
+
+- **Cabinet & Locker Mapping**
+  - Cabinets labeled **A–Z** (26 total)
+  - Each cabinet contains **15 lockers**
+  - Each locker can store multiple applicator types
+
+- **Search**
+  - Search by applicator type
+  - Fast MySQL JSON search queries
+
+- **Visual Representation**
+  - Grid-based locker view
+  - Optional 3D cabinet visualization using React Three Fiber
+
+- **CRUD API**
+  - Add, update, delete locker information
+  - Fetch all lockers or specific locations
+
+---
+
+## 📂 Project Structure
+>>>>>>> f609957829f9fb6b75eb78e0b2cb469e4427cd01
